@@ -1,0 +1,61 @@
+Questions,
+Do we need printf or just print
+
+binary code says hello world
+can represent colors with binary, then emojis as well
+Older
+C is very
+#include <stdio.h>
+int main(void)
+ {
+printf("hello, world\n");
+ }
+
+printf()
+F stands for format
+In c have to add “” to print out
+Need /n to add a new line
+printf("hello, world\n");
+
+Semi-colon is similar to a period in a sentence
+Set counter =0 says it is a variable
+
+Change counter by 1 is the same as
+counter = counter + 1;
+Can say this in counter++;
+
+Double == is meaning compare if these two signs equal
+If only had one =, we would changing
+if (x < y)
+{
+ printf("x is less than y\n");
+}
+else
+{
+printf("x is not less than y\n");
+}
+else if (x == y)
+{
+ printf("x is equal to y\n");
+}
+
+Forever, say hello, world
+
+while (true)
+{
+printf("hello, world\n");
+}
+
+If we want to limit how many times a program runs
+for (int i = 0; i < 50; i++)
+{
+printf("hello, world\n");
+}
+
+Version2.2
+ get_string("What's your name?\n");
+answer = get_string("What's your name?\n");
+
+Parity says if it even or odd
+
+Two vertical lines means or
