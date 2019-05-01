@@ -1,0 +1,69 @@
+With %50f, we can specify the number of decimal places displayed.
+Hmm, now we get …
+x: 2
+y: 10
+x / y = 0.20000000298023223876953125000000000000000000000000
+
+The CS50 library has other functions, getting input of various types:
+get_char
+get_double
+get_float
+get_int
+get_long
+get_string
+…
+And there are corresponding types in C and ways to print them with printf:
+bool
+char, %c
+double
+float, %f
+int, %i
+long, %li
+string, %s
+
+#include <stdio.h>
+
+void cough(void);
+
+int main(void)
+{
+    for (int i = 0; i < 3; i++)
+    {
+        cough();
+    }
+}
+
+// Cough once
+void cough(void)
+{
+    printf("cough\n");
+}
+
+The void cough is declaring the function earlier than the function, has full functionality
+
+Notice that we need to declare that the cough function exists, so we need the prototype, void cough(void);,
+before our main function calls it. The C compiler reads our code from top to bottom, so we need to tell it that the cough function exists,
+before we use it. And we want to keep our main function close to the top, so the actual implementation of coughwill still be below it.
+
+
+#include <stdio.h>
+
+void cough(int n);
+
+int main(void)
+{
+    cough(3);
+}
+
+// Cough some number of times
+void cough(int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        printf("cough\n");
+    }
+}
+
+Now, when we want to print “cough” some number of times, we can just call that same function.
+Notice that, with cough(int n), we indicate that the cough function takes as input an int,
+which we refer to as n. And inside cough, we use n in our for loop to print “cough” the right number of times.
