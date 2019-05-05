@@ -1,0 +1,41 @@
+Command line
+Cp <file you want to copy> <name it as file you want to save> with extensions
+
+Copy directory -
+Cp -r <folder name> <new folder name>
+
+Remove file
+Rm <file>
+Rm -f <file>
+Rm -r <directory>
+
+Rename files
+Mv <old file name> <new file name>
+
+
+
+
+Else if statements are mutually exclusive
+
+
+
+
+
+
+Both values say if (expr) is true assign value 5, if false assign it 6
+Int x = (expr) ? 5 : 6;
+
+
+
+
+
+
+
+
+
+Loops
+
+
+
+
+Do while is guaranteed to run once
