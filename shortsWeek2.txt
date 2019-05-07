@@ -1,0 +1,42 @@
+Computers understand 0 and 1s
+A.out stands for assembly output
+Make is a building
+If you use -lcs50 after clang like so
+Clang -0 hello hello.c
+Compiling is abstracting from source code to machine code
+Standard.oh.h makes
+Preprocessing
+Compiling
+
+preprocessing
+compiling
+Assembling
+Linking
+
+Main is mentioned in assembly code
+Convert assembly language to 0s and 1s
+Need to link in other peoples 0s and 1s.
+Linking does this, use other people’s libraries
+
+
+Make50 make <filename>
+
+takes as input any error messages that your code or some program has outputted. We kind of look for familiar words and phrases, just like a TF would in office hours, and if we recognize some error message, we're going to try to provide, either rhetorically or explicitly, some advice on how to handle.
+
+Type clear or cntrl l
+Keep using print f to see what is going on inside your program
+
+Does your code do what it is designed for
+How does your code look
+
+What are the sub blocks referring to.  What are they doing
+
+Cs50 has a style guide of what your code should look like
+Tab converts the tab into 4 spaces
+
+Help50
+Printf
+Style50
+
+RAM or memory
+hard drive, any files saved there are persistent
