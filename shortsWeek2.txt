@@ -93,3 +93,16 @@ and anytime you type "man" at the command prompt, and then the name of a functio
 If main returns a value like 1 or 0, you can actually see that, albeit in a kind of a non-obvious way. If I run exit, and I run it correctly with Zamyla as the name, if I then type echo, dollar sign, question mark, of all things, enter, I will then see exactly what main returned with, which in this case is 0. Now, let me try and be uncooperative. If I actually run just dot slash exit, with no word, I see, missing command line argument. But if I do the same cryptic command, echo, dollar sign, question mark, I see that main exited with 1.
 
 it's going to be a convention to exit from main by returning a non-zero value, if anything goes wrong. 0 happens to mean everything went well. And in fact, in all of the programs we've written thus far, if you don't mention return anything, main automatically for you returns 0. And it has been all this time.
+
+Bubble sort is just that comparative sort, pair by pair, fixing tiny little mistakes. But we needed to do it again, and again, and again.
+
+That's why it's n -2 at the end here. Then I want to go ahead and, if the ith and the ith +1 elements are out of order, swap them. So that's why I was asking our human volunteers to exchange places. And then just keep doing that, until there's no one left to swap. And by definition, everyone is in order.
+Just keep doing the following, until there's no remaining swaps-- from i from 0 to n -2, which is just n is the total number of humans. n -2 is go up from that person to this person, because I want to compare him or her against the person next to them. So I don't want to accidentally do this. That's why it's n -2 at the end here.
+
+
+Selection sort is literally just that, where you actually select the smallest person, or number of interest to you, intuitively, again and again. And the number keeps getting bigger, but you start ignoring the people who you've already put into place. So the problem, similarly, is getting smaller and smaller.
+
+like in bubble sort, it was getting more and more sorted.
+
+
+The pseudocode for selection sort might look like this. For i from 0 to n -1, so that's 0 in an array. And this is n -1. Just keep looking for the smallest element between those two chairs, and then pull that person out. And then just evict whoever's there-- swap them, but not necessarily adjacently, just as far away as is necessary. And in this way, I keep turning my back on more and more people because they are then in place. So two different framings of the problem, but it turns out they're actually both the same number of steps, give or take. It turns out they're roughly the same number of steps, even though it's a different way of thinking about it. Because if I think about bubble sort, the first iteration, for instance, what just-- actually, well, let's consider selection sort even.
