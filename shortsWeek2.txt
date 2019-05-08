@@ -40,3 +40,56 @@ Style50
 
 RAM or memory
 hard drive, any files saved there are persistent
+
+But RAM is more ephemeral. RAM is powered only by electricity. It's only used when the power is on or the battery is charged, and it's where your files and programs live effectively when you double click on them and open them. So when you double click on something like Microsoft Word, it is copied from your hard drive long term into this type of memory
+
+Char tends to be one byte
+Integer is 4 bytes
+Computer remembers where they are
+Chars are back to back to back
+Arrays- a list of items
+
+
+Anytime you capitalize all of the letters in a variable name, the convention is that that means it's global. That means it's defined way up top, and you can use it anywhere, therefore, because it's outside all curly braces.
+
+Java just gives you .length, if you recall that feature of objects. C does not have this. Arrays do not have an inherent length associated with them. You have to tell everyone who uses your array how long it is.
+
+String is an array of chars
+You can index into a string
+Function call strlen,
+Strlen is string length
+
+There is a storage of 0s and is also \o
+
+
+#include <cs50.h>
+#include <stdio.h>
+#include <string.h>
+
+int main(void)
+{
+    string s = get_string("String: ");
+    for (int i = 0; i < strlen(s); i++)
+    {
+        int c = (int) s[i];
+        printf("%c %i\n", s[i], c);
+    }
+}
+
+With (int) s[i], we take the value of s[i] and convert that character type to an integer type. Then, we can print out both the character and its numeric value.
+Technically, we can even do printf("%c %i\n", s[i], s[i]);, and printf will interpret the value of s[i] as an integer.
+
+You can literally, in parentheses, specify the data type you want to convert one data type to, and then store it in exactly that data type. So s bracket i-- convert it to a number. Then store it in an actual number variable, so I can print out its value. So c-- this is show me the character. Show me the letter as by plugging in the character, and then the letter-- sorry, the character and the number that I've just converted it to. And you don't actually even have to be explicit. This is called explicit casting.
+
+islower() and toupper() are two functions, among others, from a library called ctype, that we can use. (And we would only know this from reading the documentation, for that library, that other people wrote.)
+We can use a command-line program, man, to read manual information for other programs, if it exists. For example, we can run man toupper to see some documentation about that function. Then, we’ll see that toupper will return the character as-is, if it’s not a lowercase letter, and so we can simply have:
+for (int i = 0, n = strlen(s); i < n; i++)
+{
+    printf("%c", toupper(s[i]));
+}
+
+and anytime you type "man" at the command prompt, and then the name of a function you're interested in, if it exists, it will tell you a little something about it. So if I go to toupper, man toupper, I get slightly cryptic documentation here.
+
+If main returns a value like 1 or 0, you can actually see that, albeit in a kind of a non-obvious way. If I run exit, and I run it correctly with Zamyla as the name, if I then type echo, dollar sign, question mark, of all things, enter, I will then see exactly what main returned with, which in this case is 0. Now, let me try and be uncooperative. If I actually run just dot slash exit, with no word, I see, missing command line argument. But if I do the same cryptic command, echo, dollar sign, question mark, I see that main exited with 1.
+
+it's going to be a convention to exit from main by returning a non-zero value, if anything goes wrong. 0 happens to mean everything went well. And in fact, in all of the programs we've written thus far, if you don't mention return anything, main automatically for you returns 0. And it has been all this time.
