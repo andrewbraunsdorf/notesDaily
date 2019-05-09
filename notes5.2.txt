@@ -1,0 +1,28 @@
+1|means pipe
+! means bang
+! also means not
+
+&& is looking for two of the same
+T&&T = T
+F&&T= F
+T&&F = F
+F&&F = F
+T||T =T
+F||T=T
+T||F=T
+F||F =F
+(T&&F ||T) = T
+F||F &&T = F
+F|| F && F = F
+(F ||F) && (F&&T &&T&& T)= F
+
+F||T && F||T)= T
+F|(|T && F)||T)= T
+
+Input >= 1
+Input <= 8
+
+Scope, declaring variables before and during
+
+Return, if it hits it nothing else can run. Comments underneath/ or code cannot be reached
+By not including else nothing else has to be included in the text
