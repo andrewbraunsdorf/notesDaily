@@ -1,0 +1,22 @@
+Modulo-
+even/odd
+Divisible by
+Range
+
+Caesar cypher, move digits
+0-25 in computer language
+Modulo keeps you in a range between 0 and X-1
+0-max
+
+Dry- Dont repeat yourself
+
+Int total = 1
+for(int i =1; i <= 1000; i++)
+{
+	Total *= i
+}
+printf(“%i\n” total);
+
+Speed and then overflow
+
+14 lines to do the quarters
