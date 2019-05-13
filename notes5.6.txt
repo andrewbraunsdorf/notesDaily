@@ -1,0 +1,19 @@
+Mern-Mongoose, express, react, node
+
+Dont want to change their solution, always want to lead them.
+When you give advice or clarification you wait until they have finished the line.
+
+Caesar and Vigenère beginnings of encryption.
+
+Clipper chip, allows govt to access it
+
+Working with encryption,
+
+Caesar, cypher, only had alpha characters
+Isalpha function for Caesar. Function
+
+Modulo has certain powers(ways to use it)
+Find even or odd
+Even grouping, divisible by
+Ranging- keep you in a range of numbers.
+
