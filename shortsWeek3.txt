@@ -20,3 +20,26 @@ Check50 expects cs50/2019/fall/hello
 Debugger, helps remove bugs
 Using debugger, compile, then debug50 <name of file>
 Debut 50  ./hello
+
+Set break points for code
+Hit the arrow in the line number, it will break or pause on this line
+There is a mention of a variable.
+When highlighted, stops at the stop point
+Play button will run it
+Step over will run it just once…step in, can step into a function
+Most common type is step over, goes through the values
+Walk through code one line at a time
+Debugger just shows you values along the way
+Debugger will save you a ton of time.
+Can have a watch value, or lines of code
+Have been using functions from cs50 libraries.
+Its hard to get info from the users reliable
+String, is an array of characters.
+String not quite like any other character types.
+
+Now should open ide
+Comparing
+Characters
+ There is a string of arrays with Brian \0
+\0 is null
+When you type in a string, its typing its location not actually the character. “aka memory location”
