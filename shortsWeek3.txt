@@ -1,0 +1,22 @@
+Lecture 3
+Computer Science
+Have to preprocess computer
+Have to actually compile
+ Take source code and make assembly code
+Take cs50.h and stdio.h
+Printf.c
+Where the code actually is and merge the 0s and 1s that make the process possible
+More help then help50, printf, and style50
+Help50 will help you understand what the code is that is being processed
+Cs50ide is a more powerful too of what we will be using
+More features that help you solve problems with your code
+Umbuto linux.  IDE saves everything
+
+. is current file
+Files with an asterisk means its executable
+Rmdir is remove directory
+Can use check50, checks correctness of file
+Check50 expects cs50/2019/fall/hello
+Debugger, helps remove bugs
+Using debugger, compile, then debug50 <name of file>
+Debut 50  ./hello
