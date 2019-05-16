@@ -43,3 +43,32 @@ Characters
  There is a string of arrays with Brian \0
 \0 is null
 When you type in a string, its typing its location not actually the character. “aka memory location”
+
+Memory, floats interger
+Isolate characters then use a for loop
+Inso far as strings are identified by the ending characters, that is actually /0
+Brian
+Compare_strings (s, T)
+Bool returns true or false
+Comparing strings, first thing would be compare stringlengths
+If the stringlengths of I does not equal string length of b , return false… then return true
+If you compare uppercase and lowercase, they would be different.
+
+There is no such thing as a string, it is the same thing about char *
+•	After a data point is the address of the char
+100 or 900
+
+Now you can put it as char *a
+It goes as * next to variable name
+You can use strcmp, if return value == 0, returns same…otherwise return different
+It returns a positive number if s comes before t alphabetically
+It returns a negative number if s comes after t alphabetically
+
+Main itself can return values.  Returns a positive number it fails.  Returns a 0 number it means it works
+Avoid a segmentation fault means you touched memory that you shouldn’t have
+Return helps avoid these problems
+NULL is technically the 0 address
+So if (!t)
+Getting string from user.  It is array underneath the hood
+S is a pointer to one set of numbers
+If i=
