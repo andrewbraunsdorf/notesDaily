@@ -127,3 +127,10 @@ Printf(“s: %p\n”, s);
 Printf(“t: %p\n”, t);
 Prints out the memory
 0x symbolizes hexadecimal.
+
+Void swap(int a, int b)
+{
+	Int tmp = a;
+	A= b;
+	B =tmp;
+}
