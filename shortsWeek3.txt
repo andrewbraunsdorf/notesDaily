@@ -100,3 +100,30 @@ If(!s)
 {
 Return 1;
 }
+So the upper line of code s is pointing to the first letter, it is taking that memory… but we are also saying that t is stored in the same place so that is uppercased as well
+Malloc stands for memory allocates
+Asks one question, how many memory do you need
+Sizeof tells you how many memory you need for a char
+When in doubt check out cs50 reference page
+
+Strcpy(t, s) destination is the first call, origin is the second
+Copies from one into the other
+Malloc has an opposite
+After staying on the computer, that keeps allocating memory and never calls the opposite back it never gives the memory back to the user
+Should use free() as long as you give back the variable back
+Get_int gets an int from the user
+In get int &x gets the address of the variable
+Don’t need the address again
+Pointer is 64 bits
+All we allocate space for is the entry
+Declare char s[6];
+Declared enough space for /n
+When you add really long name but only called 6 characters
+Computer gives you special bytes past the origin bytes
+Char *s = get_string(“s: “);
+Char *t = get_string(“t: “);
+
+Printf(“s: %p\n”, s);
+Printf(“t: %p\n”, t);
+Prints out the memory
+0x symbolizes hexadecimal.
