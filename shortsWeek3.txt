@@ -72,3 +72,31 @@ So if (!t)
 Getting string from user.  It is array underneath the hood
 S is a pointer to one set of numbers
 If i=
+
+There is no such thing as a string
+Its an array of
+Pointer stores a
+*Is address of
+Pointer is an address
+Char * stores the address of a char
+Address is a pointer
+Pointer can store other data points as well
+Get string it actually returns char *
+Compare for
+Strcmp is called in string.h
+If (strcmp(s, t) ==0
+Strcmp returns 0 if the strings are the same
+Returns 1 if s is suppose to come before t
+Returns -# if s is suppose to come after t, alphabetically
+Can also compare ascii if <, >, can compare contacts or dictionary
+Returns byte of the first byte of the code
+or 0, you can detect something is incorrect
+
+If (s ==If null, NULL)
+{
+Segmentation fault- you touched memory that you should not touch.
+Always want to think about if it doesn’t have segmentation fault
+If(!s)
+{
+Return 1;
+}
