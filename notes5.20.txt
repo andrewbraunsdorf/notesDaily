@@ -40,3 +40,20 @@ It is going to give you the address of it
 
 int* intPointer = &b is creating pointer
 *intPointer += 4; is access the memory address
+
+& says give me the address of the variable
+Length list, can create a list and point to the next one on the list
+Can keep tacking on to the end
+Reread line to finish and come back
+Bitmaps are in multiple of 4.
+Padding comes in 4
+You need modulo
+Int padding
+Identify bitmap
+Use the staffs solution by printing out results
+Then ran through the multiplier, using the staff’s solution
+
+If you do not do your padding correct it will look funky, your padding is messed up
+
+Size of int is 4
+I know i need this much space from memory
