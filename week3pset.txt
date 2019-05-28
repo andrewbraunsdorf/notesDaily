@@ -10,3 +10,12 @@ If you use char as character, "unsigned" is completely ignored by the compiler j
   1100 (0xc)
 & 1010 (0xa)
 = 1000 (0x8
+
+If we convert 0xf0 to binary, we get 1111 0000. Looking at that, we see that the first four bits
+(the first hex digit) are all 1s, while the second 4 bits (the second hex digit) are all 0s.
+The 0s in the second digit mean that no matter what our second number is, the result will be 0 in all four of those positions.
+That means that no matter what number we feed in, we always get 0x*0.
+On the other hand, the first four bits are all 1. That means that whatever our second number is, those four bits stay the same.
+If the second number has a 1 in a position, the answer has a 1 in that position. If the second number has a 0 in that position, we get a 0 in that position.
+Both of these things together means that any number that has e as its first digit will give you 0xe0 as your result,
+so buffer[3] & 0xf0 == 0xe0 will be true. On the other hand, if buffer[3] has anything other than e as its first digit, the result will be false. Effectively, you are checking what the first hexadecimal digit of buffer[3] is.
