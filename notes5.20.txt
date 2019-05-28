@@ -1,0 +1,42 @@
+Typdedef struct
+{
+    BYTE rgbtBlue;
+    BYTE rgbtGreen;
+    BYTE rgbtRed;
+} RGBTRIPLE;
+
+
+Int main (void)
+{
+	Byte r,g,b;
+	R = 255;
+	B = 255;
+	G = 0;
+
+
+Struct - contains certain values or keys that then equal certain values
+Dot and bracket notation
+Int is a data type
+Now we can do RGBTRIPle aPixel;
+aPixel.rgbtRed = 255;
+aPixel.rgbtBlue = 255;
+aPixel.rgbtGreen = 0;
+
+Allows you to group together memory
+All together it is a data structure.
+Define at the top of the file
+
+int* intPtr =5;
+*intptr = 5;
+
+You can declare and define above the main function
+Modify the instance not the actual variables
+If you want to modify the variable you can use a pointer
+
+int* intPointer now stores a memory address
+char* charPointer,
+If you put an ambersand
+It is going to give you the address of it
+
+int* intPointer = &b is creating pointer
+*intPointer += 4; is access the memory address
