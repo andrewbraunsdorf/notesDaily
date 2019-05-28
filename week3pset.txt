@@ -1,0 +1,7 @@
+char BYTE1;
+unsigned char BYTE2;
+
+BYTE1 a;
+BYTE2 b;
+For variable a, only 7 bits are available and its range is (-127 to 127) = (+/-)2^7 -1. For variable b all 8 bits are available and the range is 0 to 255 (2^8 -1).
+If you use char as character, "unsigned" is completely ignored by the compiler just as comments are removed from your program.
