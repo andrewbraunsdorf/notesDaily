@@ -26,3 +26,18 @@ Width x height
 3 * 3 = 9 then *3 = 27 but this does not equal the same
 The answer is always multiple of 4
 Bisizeimage is the pixels plus your padding
+
+As it reads it reads and changes the curser. Moving the curser through the file
+Reading every byte
+
+Smiley width is 8 by 8, but you are -1, the row is not being scanned
+Operating system does ready all the data it is just creating a 7 by 8 structure
+
+Just accessing memory C doesnt know if we are putting bad data onto the memory.
+Fread and fwrite
+Raw binary values
+Not wrong according to C.
+If it is stored as a negative number may want to keep it negative
+
+Get 50 numbers which one is largest, store in an int and then compare to the next numbers
+How a computer
