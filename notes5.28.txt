@@ -1,0 +1,28 @@
+Typedef struct
+{
+	Int value
+	Node * next
+} Node
+
+Node first
+Node second
+Access bitmapinfoheader using .notation
+
+Access keys of struct
+Access arrowed
+first . next = second (this does not work)
+First => next
+
+printf(“biwidth%i\n”, bi.biWidth);
+printf(“biheight%i\n”, bi.biHeight);
+printf(“bisizeimage%i\n”, bi.biSizeImage);
+
+bi.biWidth += 1;
+
+printf(“biwidth%i\n”, bi.biWidth);
+
+Width x height
+8 * 8 =64 then base 3 =192 technically does +0 for padding because it is already base 4’
+3 * 3 = 9 then *3 = 27 but this does not equal the same
+The answer is always multiple of 4
+Bisizeimage is the pixels plus your padding
