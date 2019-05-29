@@ -41,3 +41,18 @@ If it is stored as a negative number may want to keep it negative
 
 Get 50 numbers which one is largest, store in an int and then compare to the next numbers
 How a computer
+
+3 things computers are good at
+Store things
+Math really well (run calculations) logic
+Repetition
+
+(address, # of bytes, iterations, file)
+# of bytes * iterations
+Address total bytes
+
+Will get bytes of junk data
+
+Store some sort of number
+Store a pointer to itself
+Typedef structure reads the parentheses first then reads it
