@@ -1,0 +1,11 @@
+Check50
+Printf
+Debug50
+Help50- you don’t understand an error message
+Style50
+Debug 50 and breakpoints
+Memory
+Malloc
+Valgrind
+Valgrind will help find memory leaks
+Malloc allocates but if you don’t free it, you keep asking and then eventually it crashes
