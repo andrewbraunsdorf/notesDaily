@@ -25,3 +25,20 @@ Have plenty of tools that you can use to modify your code
 Command line arguments with valgrind
 Rubber ducking 50, talk to the duck walking through your code and ‘
 Testing through your code step to step and talk to them
+
+Text is the top of the program, it is running the program
+It is when the 0s and 1s are loaded into RAM,
+Moves quicker
+when x and y were swapped they were stored in a temporary space and the space was then swapped but they only swapped the temporary values
+when you stored them with pointers, it allowed them to swap with code
+struct- design own data structures
+we can implement our own features
+struct.h
+header files have code you want to share
+{
+char *name;
+char *dorm;
+}
+Call structs with a .notation
+
+Using arrays, downside of array, you cannot mix data types
