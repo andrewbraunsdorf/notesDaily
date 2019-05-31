@@ -9,3 +9,19 @@ Malloc
 Valgrind
 Valgrind will help find memory leaks
 Malloc allocates but if you don’t free it, you keep asking and then eventually it crashes
+
+Accidently touch memory that you shouldn’t
+Malloc assigns the address of a pointer, need to store that in a variable
+Malloc you need stdlib.h library
+C doesn’t scream when you go too far.
+Technically wrong.
+When you request memory, they give more memory you can technically reach it…it will work on your
+You type valgrind ./filename it is a bunch of nonsense
+You have to type help50 valgrind ./memory
+Still the same amount of black and white input nonsense but at the end of it, you have a summary that addresses the issues
+When you add malloc you have to free the memory after the issues
+You have to free it after the issues
+Have plenty of tools that you can use to modify your code
+Command line arguments with valgrind
+Rubber ducking 50, talk to the duck walking through your code and ‘
+Testing through your code step to step and talk to them
