@@ -63,4 +63,19 @@ Address + (sizeof(type) * i)
 0x123 +12
 0x135
 
+C is all about efficiency and memory management
+
+Input stream
+8
+7
+10
+5
+Store 8 in a block of memory
+Store 7 in a block of memory and have 9=8 point to 7
+Then store 10 in a box and have 7 point to it
+Store 5 in a box and have 10 point to it
+Have to start at 8 then to 7 then to 10 and then to 5
+(unfortunately you have to go through them in
+
+You have to store the address.  Each of them has an extra piece of memory that stores to the next person.
 
