@@ -19,3 +19,22 @@ Get words into memory, then check words to see if they work
 If word is not spelled in dictionary it is wrong
 Will take hat and hat’s if in the dictionary
 Check to see if word is in dictionary...but say apple, its not in dictionary
+
+Had an array, have an array of words
+[“cat”, “caterpillar”, “hat”, “hat’s]
+To search for it search through using an array
+Arrays have set lengths
+Trie and hash table
+
+Trie works as having several node with more branches to more does
+
+Hash table=>
+hat=> 71
+0-80 it will always return the same #
+But the word cat might give you the word 71
+
+0-
+22- Hat’s
+52- Caterpillar
+71 - Hat Cat
+
