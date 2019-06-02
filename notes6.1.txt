@@ -38,3 +38,29 @@ But the word cat might give you the word 71
 52- Caterpillar
 71 - Hat Cat
 
+Hash table divides them into subsection
+How many boxes do you create with how many boxes into subsection
+Use malloc, but then also need to use free
+Need to remove free in a particular order
+
+Use pointers and a linked list
+
+An array with 5 boxes
+Int Array[i]
+Address + (sizeof(type) * i)
+Address is 0x123
+0- 0x123
+1- 0x127
+2- 0x131
+3- 0x135
+4- 0x139
+5- 0x143
+6- 0x147
+
+Address + (sizeof(type) * i)
+0x123 + (sizeof(int) * 3)
+0x123  + (4*3)
+0x123 +12
+0x135
+
+
