@@ -1,0 +1,21 @@
+Recover: getting chunks of data.
+Any chunk you grab.
+When you find the first 4 chunks, you throw chunks in there until it starts with the first 4 bytes again
+Left fill 0s, sp upi start 001-050.jpg
+
+How do we objectify this?
+
+Pset 4
+Speller: spell checking file
+Dictionary  text
+Speller dictionary text
+
+Using malloc
+Cat
+Caterpillar
+Hat
+Txt document is play, take document,
+Get words into memory, then check words to see if they work
+If word is not spelled in dictionary it is wrong
+Will take hat and hat’s if in the dictionary
+Check to see if word is in dictionary...but say apple, its not in dictionary
