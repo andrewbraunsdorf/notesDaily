@@ -62,3 +62,12 @@ Create another element, then another and another
 When you use malloc 3 separate times, they are not being stored next to them…they might not even be proximate to each other
 Create a link , pointer that is just an address
 Now we have to store the memory of an item but also request slightly more memory to store the address of the next item
+
+So each box now has an item and next memory location.  Last item will have a null value underneath them
+Create a link list
+Typedef struct node
+{
+	Int n;
+	Struct node * next;
+}
+Node;
