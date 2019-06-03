@@ -101,6 +101,20 @@ Stored 2 different types into different entities
 Nodes on a list or nodes on a tree
 Create our own struct called a notes
 
+Passby reference: some changes the original some do not
+
+__attribute__((__packed__)) if you plan on using  to fwrite to a file use packed to ensure it is read correctly
+
+Typedef struct allows you to name the struct
+Capitalize items that have certain rules
+Bitmapinfoheader are uppercase as msft uppercased it
+Int value is the identifier
+
+NODE rootNode;
+Reference to a node but not in memory
+
+Anonymous struct;
+
 
 
 
