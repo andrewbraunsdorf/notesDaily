@@ -115,6 +115,20 @@ Reference to a node but not in memory
 
 Anonymous struct;
 
+Random access memory- RAM takes space and access memory
+
+Iterations for, do while, while
+
+To exit loop
+Break;
+Return;
+Continue goes to next iteration...it acts as a closing bracket
+
+If there is something
+Takes trav and tells it to point at the new address
+
+Structs are comparable to constructor function in javascript
+
 
 
 
