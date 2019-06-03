@@ -71,3 +71,12 @@ Typedef struct node
 	Struct node * next;
 }
 Node;
+
+They are the addresses of an int. the item is pointing to the entire node
+Store a pointer to a node
+Pointer to a node with
+First part is called n and the second part there is a pointer called next
+Have to declare a struct node first and a pointer to the very first thing we are defining
+There are garbage values, and there has to point selectively
+Computers and code do not run like humans
+Cannot go backwords, so have to peek ahead to see what is there.
