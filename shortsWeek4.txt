@@ -42,3 +42,23 @@ char *dorm;
 Call structs with a .notation
 
 Using arrays, downside of array, you cannot mix data types
+
+Size cannot change
+Int x[2]
+You cannot fit a third object in it
+You have to create a new array
+So if you had 42, 13 you would need to make an array to add 50
+You would take the same memory locations of 42 and 13 but also have to add 50
+
+Effency of resizing an array, N represents n +1 to create a new array
+If there is more needed
+There is a function in c called realloc which allocates additional ram to the program
+Realloc will, create a new array…however this is all linear
+This all happens on the heap
+Link list, elements point to other elements
+
+Commit to a data structure and stick to it
+Create another element, then another and another
+When you use malloc 3 separate times, they are not being stored next to them…they might not even be proximate to each other
+Create a link , pointer that is just an address
+Now we have to store the memory of an item but also request slightly more memory to store the address of the next item
