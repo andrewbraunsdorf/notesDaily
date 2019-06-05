@@ -102,3 +102,18 @@ size == capacity
 when both are 0 it is the same
 realloc will find a space that is the size for the array. This is if the memory is not
 available next to the old is not available
+
+numbers  = realloc(numbers, sizeof(int) * (size + 1));
+size +1 is
+if realloc fails to generate variable it will fail
+
+     if (!n)
+     {
+         return 1;
+     }
+If there is no more memory it should fail
+If n is not a valid pointer return 1
+	Has give you
+	 a new node.  And in it is number on top and next on the bottom
+	So the pointer -> then draws in the number like
+	n->number = number;
