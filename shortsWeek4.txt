@@ -80,3 +80,25 @@ Have to declare a struct node first and a pointer to the very first thing we are
 There are garbage values, and there has to point selectively
 Computers and code do not run like humans
 Cannot go backwords, so have to peek ahead to see what is there.
+
+If you want everything sorted it takes a while to run
+If its an unsorted list all you do is have new element point to the first real element
+and have the first element point to the newest element.
+
+It is only 2 steps
+Much much quicker
+If that is the same amount of steps that is constant time
+If you want really fast insertions just add them at the beginning
+If you over allocate space you are wasting space.
+If you want to add everything last you would need a second pointer that always points to the last element in the array.
+
+Can have them store 2 ints so each points in two directions
+Array is essentially just a chunk of memory
+Or more specifically the address of a chunk of memory
+You can set it equal to:
+ int *numbers= NULL;
+initially it is set to null
+size == capacity
+when both are 0 it is the same
+realloc will find a space that is the size for the array. This is if the memory is not
+available next to the old is not available
