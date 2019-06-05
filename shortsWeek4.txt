@@ -117,3 +117,14 @@ If n is not a valid pointer return 1
 	 a new node.  And in it is number on top and next on the bottom
 	So the pointer -> then draws in the number like
 	n->number = number;
+
+node *n = malloc(sizeof(node));
+the space is created
+n->number = number;
+the number is created
+n is a pointer to a node,
+how do you go to an address
+so basically saying if numbers is not null
+if (numbers)
+     {
+A pointer is an address
