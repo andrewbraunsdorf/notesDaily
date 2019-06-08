@@ -24,3 +24,24 @@ Creates a new node
 Malloc calls new nodes in the heap
 addnode creates a space in memory for the node
 If next = null we pop out of the loop
+
+
+You want to change your list
+How do you change your root node
+Create an edge case
+Application layer
+Root node lives at the bottom of the page
+Main closes
+And takes the app layer with it
+
+Valgrind lets you know about leaked items
+How to remove something from a list
+Want to remove the middle, first, and ending item
+Most likely to remove a middle item
+
+First need to find the number
+
+Create a traveler and go to point to the next
+
+Have to free in reverse order
+Have to reassign the one before the last and then delete the items
