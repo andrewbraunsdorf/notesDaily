@@ -1,0 +1,10 @@
+Binary tree is a binary based question on each node.
+The flow through
+
+Can we do a speller through a binary tree? Is there a question you can ask
+Instead of a number you can store a char but they all have to store the same data type
+String or character
+
+Load dictionary
+System should take data out of order
+Load cat first
