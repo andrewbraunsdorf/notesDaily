@@ -1,0 +1,26 @@
+Bubble sort is most efficient if you dont make any changnes
+
+Stdin- standard input
+Node is running on a server as a process
+
+.on() event handler
+Something enters our input system lets do something with our data
+
+Different syntax makes it
+On end, finish it
+_ = () in javascript
+Whitespace
+
+Regex, regular expressions
+\s* matches any whitespace character
+*quantifier
+
+Find all new bf and bi data
+Keep track of old ones or create a new bitmapfileheader newbf;
+
+When it is not struct it is a pointer to a node
+Root node but we are in the stack
+Creates a new node
+Malloc calls new nodes in the heap
+addnode creates a space in memory for the node
+If next = null we pop out of the loop
