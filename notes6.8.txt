@@ -8,3 +8,11 @@ String or character
 Load dictionary
 System should take data out of order
 Load cat first
+
+Do not need to take up memory for every single letter
+It is suppose to be efficient on the computer too
+C is the first letter
+Yes is left and no is the no
+How to make sure hats and hat are words add in the concept of finalized word
+Value is null not a valid endpoint
+Add start and empty node
