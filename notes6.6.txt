@@ -1,0 +1,27 @@
+Have to free each item individual
+Had 5 10 8 17
+Cs code gets processed into its own processed language
+If you want to remove items in a certain order you have to remove them in a certain order
+They cannot lose their value
+17 is pointing at NULL, then go through the list again.  Basic minimal idea.
+More efficient system, is recursion, calling system to do repeated items one by one
+Root node has no value, it is only an address
+Root node has no attributes, it is just a memory location
+
+Each node has to ask them if they are free in front
+Based on repetitive.  Create a variable that does not travel through the list
+Current node pointing at 5, each time pointing at its child
+
+Take some time on the challenges in class
+
+Tries to reassign root value as the second item in the list
+Cannot change the value of trav
+Create a traveler
+Nav
+
+Return inside an if statement, you don’t need an else bracket
+
+Binary trees have a value and then go in 2 directions higher or lower
+Binary trees can help speed up the process
+Looking for an end of a branch to add something
+Empty data next to nodes
