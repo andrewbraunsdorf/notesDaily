@@ -141,3 +141,11 @@ if (numbers)
          }
      }
 for (node *ptr = numbers; ptr != NULL; ptr = ptr->next)
+
+you have n->number = number;
+a new number is created in that space,
+then also in that space you have
+n->next = NULL;
+this creates a next element in that node and makes it NULL
+
+address is a place in memory
