@@ -128,3 +128,16 @@ so basically saying if numbers is not null
 if (numbers)
      {
 A pointer is an address
+
+if (numbers)
+     {
+         for (node *ptr = numbers; ptr != NULL; ptr = ptr->next)
+         {
+             if (!ptr->next)
+             {
+                 ptr->next = n;
+                 break;
+             }
+         }
+     }
+for (node *ptr = numbers; ptr != NULL; ptr = ptr->next)
