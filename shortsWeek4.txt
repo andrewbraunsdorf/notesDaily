@@ -149,3 +149,18 @@ n->next = NULL;
 this creates a next element in that node and makes it NULL
 
 address is a place in memory
+
+
+if (numbers)
+     {
+         for (node *ptr = numbers; ptr != NULL; ptr = ptr->next)
+         {
+             if (!ptr->next)
+             {
+                 ptr->next = n;
+                 break;
+             }
+         }
+     }
+for (node *ptr = numbers; ptr != NULL; ptr = ptr->next)
+
