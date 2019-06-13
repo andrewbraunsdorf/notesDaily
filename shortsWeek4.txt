@@ -173,6 +173,17 @@ What is the code actually doing here?
 Its taking the
 Arrow notation is saying go to the address and obtain the value
 
+hashing
+Hash functions
+Take as input something and take as output a number
+A goes in 0
+B goes in 1
+Z goes in 25
+That list can be short or long but it depends on where it is
+Running 26x faster does really speed it up.
+Fine tuning
+Hash function is up to the programmer to design
+
 
 
 
