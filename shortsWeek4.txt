@@ -163,4 +163,16 @@ if (numbers)
          }
      }
 for (node *ptr = numbers; ptr != NULL; ptr = ptr->next)
+this gives me a variable called ptr and makes it the start of my list
+
+ptr = ptr->next
+pointer gets pointer next
+it literally takes the value and points to the next item in the list
+Which is the field you have to update?
+What is the code actually doing here?
+Its taking the
+Arrow notation is saying go to the address and obtain the value
+
+
+
 
