@@ -34,3 +34,14 @@ Hash table need a array of pointers that connect to a linked list
 Trie is a bunch of nodes that has pointers
 But more of a ton of pointers
 
+
+Understanding how the flow of these items work before you try to use
+Have a test.c file
+
+Use assert library.
+Use the small dictionary for a small list
+
+Large list is 140k. Your code has to be efficient
+You can see how long your function takes
+It will run valgrind to check your code to see what happens
+
