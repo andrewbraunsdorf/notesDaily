@@ -1,0 +1,19 @@
+Can i cannibalism code from other programs that i have seen
+Everything you need is right here
+Size of image and size of structure
+
+Hide images in a picture,
+Then can reopen in a text file and see that text.
+Jpegs have certain material
+Hexidecimal
+Can  work with 0x numbers
+Each file after the next, one starts, previous one has finished
+Jpeg is 512 bytes, and they write bytes
+Always starts at the beginning of a block
+
+Root number
+Not in tree
+Middle of tree
+End of branch
+
+Following rules and can deduce the numbers are there until proven wrong.
