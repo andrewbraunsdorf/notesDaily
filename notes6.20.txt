@@ -11,3 +11,11 @@ Last in first out
 Queues waiting in lines
 LIFO and FIFO
 Push and Pop due to the queue and stack systems
+
+Add 10 straight to the queue, tell the child nodes again, 8 and 15
+Because we had a pointer at 15 we can go to it, then add them to the list.  Print out 15.
+
+It would be an interesting printout if you wanted to go out through the stack,
+You can pop from the front and push from the end
+ Link list and can change the front of your linked list
+We can potentially run out of space.
