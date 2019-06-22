@@ -1,0 +1,13 @@
+Display tree by levels
+10
+8-15
+5-9-13-17
+6-7-20
+4-18
+
+Stacks plates
+Grab plates from top
+Last in first out
+Queues waiting in lines
+LIFO and FIFO
+Push and Pop due to the queue and stack systems
